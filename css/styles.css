@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'CNew';
+    src: url('../fonts/zai_CourierPolski1941.ttf') format('truetype')
+}
+
+html {
+   background: rgb(35, 35, 39);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'CNew', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(242, 104, 53);
+    font-size: 24px/1.5;
+    margin: 1rem;
+}
+ul {
+    list-style: none;
+}
+button, .quotes {
+    font-family: monospace, sans-serif;
+}
+li,button{
+    border:none;
+    width:80px;
+    height:50px;
+}
+.random {
+    margin : 1rem;
+}
+section , .quotes, section > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section {
+    flex-direction:column;
+}
+.quotes {
+    text-align:center;
+    color: white;
+
+    border:  5px solid rgb(242, 104, 53);
+    border-radius: 1%;
+
+    padding: 2rem;
+
+    width:450px;
+    min-height: 250px;
+    max-width: 450px;
+
+
+    font-size: 24px;
+}
+
+.hidden {
+    display:none;
+}
+
+button:hover {
+    color: white;
+    background: rgb(242, 104, 53);
+}

@@ -11,8 +11,8 @@ An API practice project. My learning was focused on fetching data from an API an
 
 Optimizations I'd like to add given the time.
 
-Better CSS animations when switching jokes.
-Fetching all jokes at once and display them as a carousel instead.
+-Better CSS animations when switching jokes.
+-Fetching all jokes at once and display them as a carousel instead.
 
 
 ## Lessons Learned:
